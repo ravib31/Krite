@@ -1,0 +1,20 @@
+.drop {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+  }
+  
+  .drop-1,
+  .drop-2 {
+    display: flex;
+    gap: 30px; /* Adjust the gap between dropdowns as needed */
+  }
+  
+  .drop-1 {
+    justify-content: flex-start;
+  }
+  
+  .drop-2 {
+    justify-content: flex-end;
+  }
+  

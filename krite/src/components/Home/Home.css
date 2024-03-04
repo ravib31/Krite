@@ -1,0 +1,95 @@
+.data {
+  display: grid;
+  gap: 20px;
+  margin: 20px;
+}
+
+.data_div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 16.66%;
+  white-space: nowrap;
+}
+
+.description {
+  margin-bottom: 10px;
+  width: 16.66%;
+}
+
+.photo {
+  width: 16.66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmax;
+}
+
+.category {
+  width: 16.66%;
+  font: italic;
+  text-transform: capitalize;
+}
+
+.photo img {
+  width: 10%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.price {
+  margin-bottom: 10px;
+  width: 16.66%;
+}
+
+.rating {
+  font-style: italic;
+  width: 16.66%;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex; /* Use flexbox to arrange elements */
+  align-items: center; /* Align items vertically */
+  /* Space elements evenly horizontally */
+  padding: 10px 20px; /* Add padding to the navbar */
+  background-color: #333; /* Add background color */
+  color: white; /* Set text color */
+  justify-content: space-between;
+}
+
+/* H1 styles */
+.navbar h1 {
+  margin: 0; /* Remove default margin */
+  width: 50%c;
+}
+
+/* Input styles */
+.navbar input[type="text"] {
+  width: 50%c;
+  padding: 8px 12px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px; /* Adjust width as needed */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Placeholder text styles */
+.navbar input[type="text"]::placeholder {
+  color: #999; /* Adjust placeholder color */
+}
+
+/* Focus styles */
+.navbar input[type="text"]:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: blue; /* Change border color on focus */
+}
